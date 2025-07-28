@@ -18,21 +18,19 @@ Welcome to **EventVista** – your one-stop platform to explore exciting events,
 - 📌 **Create & Host Events**: Add event details, images, timings, and location.
 - 🛠 **Manage Registrations**: View participant data in real-time.
 - ✏️ **Edit & Update**: Modify events anytime with live updates.
-- 📣 **Promote**: Shareable event links and improved discoverability.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer         | Technologies Used |
-|---------------|------------------|
-| 🌐 Frontend   | React.js, Tailwind CSS, Vite |
-| 🎨 Styling     | Tailwind CSS |
+| Layer         | Technologies Used                  |
+|---------------|------------------------------------|
+| 🌐 Frontend   | React.js, Tailwind CSS, Vite       |
+| 📦 Backend    | Node.js, Express.js, MongoDB       |
+| 🔒 Auth       | JWT (JSON Web Token)               |
+| 🎨 Styling    | Tailwind CSS                       |
 | 🚀 Deployment | Vercel |
-| 🔒 Auth  | JWT  |
 
-
-> Backend integration not included in current deployment. This version showcases full frontend capabilities.
 
 ---
 
