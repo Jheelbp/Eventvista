@@ -1,51 +1,41 @@
-# Eventvista
-# 🎉 EventVista — Discover, Host & Manage Events Seamlessly
+# 🚀 EventVista: Event Discovery Platform
 
-Welcome to **EventVista** – your one-stop platform to explore exciting events, register with ease, and even organize your own! Whether you’re a curious attendee or an enthusiastic organizer, EventVista offers a streamlined, responsive, and engaging user experience.
+**EventVista** is a full-stack event discovery platform designed to be a centralized hub for discovering, managing, and promoting local events. It provides a seamless experience for users to find events tailored to their interests and for organizers to reach their target audience effectively.
 
-🌐 **Live Demo:** [eventvista-frontend.vercel.app](https://eventvista-frontend.vercel.app)
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 👥 For Attendees:
-- 🔍 **Event Discovery**: Browse curated events across categories.
-- 📝 **Easy Registration**: Register for events with a few clicks.
-- 🎫 **Smart Ticketing**: Receive confirmation and digital passes.
-- 🔎 **Search & Filters**: Quickly find events by type, date, or location.
-
-### 📊 For Organizers:
-- 📌 **Create & Host Events**: Add event details, images, timings, and location.
-- 🛠 **Manage Registrations**: View participant data in real-time.
-- ✏️ **Edit & Update**: Modify events anytime with live updates.
+- **Secure Authentication:** JWT-based authentication for secure user registration and login.
+- **Advanced Event Discovery:** Filter events by type, city, or organizer.
+- **Interactive Event Map:** A map view powered by **React-Leaflet** to visualize and discover nearby events based on the user's current location.
+- **Dynamic Event Hosting:** Authenticated users can create, post, and manage their own event listings.
+- **User Profile Management:** Users can view and update their profiles.
+- **Organizer Rating System:** A feedback mechanism for users to rate event organizers, building a community of trust.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer         | Technologies Used                  |
-|---------------|------------------------------------|
-| 🌐 Frontend   | React.js, Tailwind CSS, Vite       |
-| 📦 Backend    | Node.js, Express.js, MongoDB       |
-| 🔒 Auth       | JWT (JSON Web Token)               |
-| 🎨 Styling    | Tailwind CSS                       |
-| 🚀 Deployment | Vercel |
-
+| Layer         | Technology Used                         |
+|---------------|------------------------------------------|
+| **Frontend**  | React.js, Vite, React-Leaflet, Tailwind CSS |
+| **Backend**   | Node.js, Express.js                     |
+| **Database**  | MongoDB with Mongoose                   |
 
 ---
 
-## 📸 Preview
+## 🔮 Future Improvements
 
-> *(Optional: You can record a walkthrough video or upload preview screenshots to enhance this section.)*
+A roadmap of potential enhancements to improve functionality, performance, and security.
+
+### 🚧 Features
+- **Personalized Recommendations:** "For You" feed with AI/ML to recommend events based on user interests.
+- **Real-Time Notifications:** Use WebSockets for instant updates on events or registrations.
+- **Social Features:** Allow users to follow friends and see what events they’re attending.
+
+### ⚙️ Performance & Scalability
+- **Caching Layer:** Integrate Redis to cache frequently accessed API responses.
+- **Database Scaling:** Use read replicas for handling large-scale read/write operations.
 
 ---
-
-## 🚀 Getting Started (Local Development)
-
-Follow these steps to run EventVista locally:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/EventVista.git
-cd EventVista
